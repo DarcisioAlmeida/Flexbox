@@ -1,0 +1,60 @@
+/* RESPONSIVE */
+  
+@media(max-width: 992px){
+  .flex-container {
+    flex-direction: column;
+  }
+  /* APRESNTACAO */
+  .apresentacao {
+    flex-direction: column-reverse;
+    width: 50%;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+
+  /* QUEM SOMOS */ 
+  #quem-somos {
+    flex-direction: column-reverse;
+  }
+  .quem-somos-items {
+    align-items: center;
+    padding: 30px;
+  }
+  .quem-somos img {
+    min-width: 320px;
+    margin: auto;
+  }
+
+  /* SERVIÇOS */
+  #servicos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .servicos-info {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .servicos-items img {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  /* PLANOS */
+  #planos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }  
+  .planos-info {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .planos-info .planos-items {
+    max-width: 90%;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+} 
